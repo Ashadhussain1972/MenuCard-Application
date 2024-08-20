@@ -1,0 +1,316 @@
+{
+    "Indian Cuisine": {
+        "Appetizers": [
+            {
+                "id": "ind-app-001",
+                "name": "Samosas (Potato and pea)",
+                "price": 50
+            },
+            {
+                "id": "ind-app-002",
+                "name": "Pakoras (Vegetable fritters)",
+                "price": 60
+            },
+            {
+                "id": "ind-app-003",
+                "name": "Onion Bhaji",
+                "price": 40
+            },
+            {
+                "id": "ind-app-004",
+                "name": "Chicken Tikka",
+                "price": 150
+            },
+            {
+                "id": "ind-app-005",
+                "name": "Seekh Kebabs",
+                "price": 160
+            }
+        ],
+        "Main Courses": {
+            "Vegetarian": [
+                {
+                    "id": "ind-main-veg-001",
+                    "name": "Paneer Butter Masala",
+                    "price": 250
+                },
+                {
+                    "id": "ind-main-veg-002",
+                    "name": "Chana Masala (Chickpea curry)",
+                    "price": 200
+                },
+                {
+                    "id": "ind-main-veg-003",
+                    "name": "Aloo Gobi (Potato and cauliflower)",
+                    "price": 180
+                },
+                {
+                    "id": "ind-main-veg-004",
+                    "name": "Baingan Bharta (Eggplant curry)",
+                    "price": 190
+                },
+                {
+                    "id": "ind-main-veg-005",
+                    "name": "Dal Tadka (Spiced lentils)",
+                    "price": 150
+                }
+            ],
+            "NonVegetarian": [
+                {
+                    "id": "ind-main-nonveg-001",
+                    "name": "Butter Chicken",
+                    "price": 300
+                },
+                {
+                    "id": "ind-main-nonveg-002",
+                    "name": "Chicken Curry",
+                    "price": 280
+                },
+                {
+                    "id": "ind-main-nonveg-003",
+                    "name": "Lamb Rogan Josh",
+                    "price": 350
+                },
+                {
+                    "id": "ind-main-nonveg-004",
+                    "name": "Fish Curry",
+                    "price": 320
+                },
+                {
+                    "id": "ind-main-nonveg-005",
+                    "name": "Chicken Korma",
+                    "price": 310
+                }
+            ]
+        },
+        "Breads": [
+            {
+                "id": "ind-bread-001",
+                "name": "Naan (Plain, Garlic, Butter)",
+                "price": 40
+            },
+            {
+                "id": "ind-bread-002",
+                "name": "Roti",
+                "price": 20
+            },
+            {
+                "id": "ind-bread-003",
+                "name": "Paratha",
+                "price": 30
+            },
+            {
+                "id": "ind-bread-004",
+                "name": "Kulcha",
+                "price": 50
+            }
+        ],
+        "Rice Dishes": [
+            {
+                "id": "ind-rice-001",
+                "name": "Biryani (Chicken, Mutton, or Vegetable)",
+                "price": 200
+            },
+            {
+                "id": "ind-rice-002",
+                "name": "Pulao (Vegetable or Jeera Rice)",
+                "price": 150
+            },
+            {
+                "id": "ind-rice-003",
+                "name": "Khichdi (Rice and lentil dish)",
+                "price": 130
+            }
+        ],
+        "Side Dishes": [
+            {
+                "id": "ind-side-001",
+                "name": "Raita (Yogurt with cucumber and spices)",
+                "price": 60
+            },
+            {
+                "id": "ind-side-002",
+                "name": "Pickles",
+                "price": 30
+            },
+            {
+                "id": "ind-side-003",
+                "name": "Papadam (Crispy lentil crackers)",
+                "price": 20
+            }
+        ],
+        "Desserts": [
+            {
+                "id": "ind-dessert-001",
+                "name": "Gulab Jamun",
+                "price": 100
+            },
+            {
+                "id": "ind-dessert-002",
+                "name": "Rasgulla",
+                "price": 100
+            },
+            {
+                "id": "ind-dessert-003",
+                "name": "Kheer (Rice pudding)",
+                "price": 90
+            },
+            {
+                "id": "ind-dessert-004",
+                "name": "Jalebi",
+                "price": 80
+            }
+        ],
+        "Beverages": [
+            {
+                "id": "ind-bev-001",
+                "name": "Masala Chai (Spiced tea)",
+                "price": 30
+            },
+            {
+                "id": "ind-bev-002",
+                "name": "Lassi (Sweet or salted yogurt drink)",
+                "price": 50
+            },
+            {
+                "id": "ind-bev-003",
+                "name": "Mango Lassi",
+                "price": 60
+            },
+            {
+                "id": "ind-bev-004",
+                "name": "Indian Soda",
+                "price": 40
+            }
+        ]
+    },
+    "Chinese Cuisine": {
+        "Appetizers": [
+            {
+                "id": "chi-app-001",
+                "name": "Spring Rolls",
+                "price": 100
+            },
+            {
+                "id": "chi-app-002",
+                "name": "Dumplings (Steamed or Fried)",
+                "price": 120
+            },
+            {
+                "id": "chi-app-003",
+                "name": "Chicken Satay",
+                "price": 140
+            },
+            {
+                "id": "chi-app-004",
+                "name": "Hot and Sour Soup",
+                "price": 80
+            },
+            {
+                "id": "chi-app-005",
+                "name": "Wonton Soup",
+                "price": 90
+            }
+        ],
+        "Main Courses": [
+            {
+                "id": "chi-main-001",
+                "name": "Sweet and Sour Chicken",
+                "price": 270
+            },
+            {
+                "id": "chi-main-002",
+                "name": "Kung Pao Chicken",
+                "price": 290
+            },
+            {
+                "id": "chi-main-003",
+                "name": "Beef and Broccoli",
+                "price": 300
+            },
+            {
+                "id": "chi-main-004",
+                "name": "Mapo Tofu",
+                "price": 250
+            },
+            {
+                "id": "chi-main-005",
+                "name": "General Tso's Chicken",
+                "price": 280
+            }
+        ],
+        "Fried Rice And Noodles": [
+            {
+                "id": "chi-fried-001",
+                "name": "Fried Rice (Vegetable, Chicken, or Shrimp)",
+                "price": 200
+            },
+            {
+                "id": "chi-fried-002",
+                "name": "Lo Mein (Vegetable, Chicken, or Beef)",
+                "price": 220
+            },
+            {
+                "id": "chi-fried-003",
+                "name": "Chow Mein",
+                "price": 210
+            },
+            {
+                "id": "chi-fried-004",
+                "name": "Singapore Noodles",
+                "price": 230
+            }
+        ],
+        "Side Dishes": [
+            {
+                "id": "chi-side-001",
+                "name": "Steamed Buns",
+                "price": 50
+            },
+            {
+                "id": "chi-side-002",
+                "name": "Chinese Broccoli with Garlic",
+                "price": 80
+            },
+            {
+                "id": "chi-side-003",
+                "name": "Egg Drop Soup",
+                "price": 70
+            }
+        ],
+        "Desserts": [
+            {
+                "id": "chi-dessert-001",
+                "name": "Sesame Balls",
+                "price": 60
+            },
+            {
+                "id": "chi-dessert-002",
+                "name": "Mango Pudding",
+                "price": 70
+            },
+            {
+                "id": "chi-dessert-003",
+                "name": "Fried Banana",
+                "price": 50
+            }
+        ],
+        "Beverages": [
+            {
+                "id": "chi-bev-001",
+                "name": "Chinese Tea",
+                "price": 40
+            },
+            {
+                "id": "chi-bev-002",
+                "name": "Lemonade",
+                "price": 50
+            },
+            {
+                "id": "chi-bev-003",
+                "name": "Iced Tea",
+                "price": 60
+            }
+        ]
+    }
+}
