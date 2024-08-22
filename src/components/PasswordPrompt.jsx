@@ -15,22 +15,22 @@ const PasswordPrompt = ({ onAuthenticate }) => {
   };
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 z-50">
-      <div className="bg-white p-6 rounded shadow-lg max-w-sm mx-auto">
-        <h2 className="text-2xl font-bold mb-4">Admin Authentication</h2>
+    <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-70 z-50">
+      <div className="bg-gray-800 p-6 rounded-lg shadow-lg max-w-sm mx-auto">
+        <h2 className="text-2xl font-bold mb-4 text-yellow-400">Admin Authentication</h2>
         <form onSubmit={handleSubmit}>
-          <label className="block mb-2 text-gray-700">Password</label>
+          <label className="block mb-2 text-gray-300">Password</label>
           <input
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
-            className="w-full p-2 border border-gray-300 rounded mb-4"
+            className="w-full p-2 border border-gray-600 rounded mb-4 bg-gray-900 text-white"
             required
           />
-          {error && <p className="text-red-600 mb-4">{error}</p>}
+          {error && <p className="text-red-500 mb-4">{error}</p>}
           <button
             type="submit"
-            className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600"
+            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
           >
             Submit
           </button>

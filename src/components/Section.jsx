@@ -3,7 +3,7 @@ import MenuItem from "./MenuItem";
 
 const Section = ({ title, items, onAddToCart }) => (
   <div className="mb-8">
-    <h3 className="text-2xl font-medium mb-4 text-red-600 transition-colors duration-300 hover:text-red-800">
+    <h3 className="text-2xl font-medium mb-4 text-yellow-400 transition-colors duration-300 hover:text-yellow-500">
       {title}
     </h3>
     <ul className="space-y-2">
