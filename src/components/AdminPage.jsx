@@ -11,7 +11,6 @@ const AdminPage = () => {
   useEffect(() => {
     const fetchMetrics = async () => {
       try {
-       
         const ordersCollection = collection(db, "orders");
         const ordersSnapshot = await getDocs(ordersCollection);
         setTotalOrders(ordersSnapshot.size);
@@ -29,28 +28,32 @@ const AdminPage = () => {
     navigate("/orders");
   };
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <div className="text-white text-center p-4">Loading...</div>;
 
   return (
-    <div className="admin-page p-6 max-w-4xl mx-auto bg-gray-50 shadow-lg rounded-lg">
-      <h1 className="text-4xl font-extrabold mb-8 text-red-600 text-center">
-        Admin Page
-      </h1>
-      <div className="mb-6 p-4 bg-white shadow rounded-lg">
-        <h2 className="text-2xl font-semibold mb-4">Admin Metrics</h2>
+    <div className="admin-page h-screen p-6 bg-gray-900 text-white flex flex-col justify-between">
+      <header className="mb-6">
+        <h1 className="text-4xl font-extrabold text-red-400 text-center">
+          Admin Page
+        </h1>
+      </header>
+      <main className="flex-grow mb-6 p-4 bg-gray-800 shadow rounded-lg">
+        <h2 className="text-2xl font-semibold mb-4 text-yellow-400">Admin Metrics</h2>
         <div className="flex flex-col space-y-4">
-          <div className="flex justify-between items-center p-4 bg-gray-100 rounded">
+          <div className="flex justify-between items-center p-4 bg-gray-700 rounded">
             <span className="text-lg font-medium">Total Orders:</span>
             <span className="text-xl font-bold">{totalOrders}</span>
           </div>
         </div>
-      </div>
-      <button
-        onClick={handleGoToOrders}
-        className="mt-4 bg-green-500 text-white px-4 py-2 rounded transition-colors hover:bg-green-600"
-      >
-        View Orders
-      </button>
+      </main>
+      <footer>
+        <button
+          onClick={handleGoToOrders}
+          className="w-full bg-green-600 text-white px-4 py-2 rounded transition-colors hover:bg-green-700"
+        >
+          View Orders
+        </button>
+      </footer>
     </div>
   );
 };
